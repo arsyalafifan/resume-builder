@@ -1,9 +1,13 @@
 import React from 'react';
 import Navbar from './navbar/Navbar';
+import Header from './header/Header';
 
 const LandingPage = () => {
     return(
-        <Navbar />
+        <>
+            <Navbar />
+            <Header />
+        </>
     )
 }
 
