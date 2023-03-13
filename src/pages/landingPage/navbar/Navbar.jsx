@@ -1,10 +1,11 @@
-import { Header } from "antd/es/layout/layout";
+import { Layout, Button, Image, Drawer } from 'antd';
 import React from 'react';
-import { Button, Image, Drawer } from "antd";
 
 import './navbar.css';
 import Logo from './images/logo.png'
 import NavbarList from "./NavbarList";
+
+const { Header } = Layout
 
 const Navbar = () => {
     return(
@@ -27,7 +28,8 @@ const Navbar = () => {
                     </Button>
                 </div>
             </div>
-        </Header>
+    </Header>
+
     )
 }
 export default Navbar;

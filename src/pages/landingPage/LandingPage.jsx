@@ -1,12 +1,18 @@
 import React from 'react';
+import { Layout } from 'antd';
 import Navbar from './navbar/Navbar';
-import Header from './header/Header';
+import Hero from './hero/Hero';
+
+const { Header, Content, Footer } = Layout;
+
 
 const LandingPage = () => {
     return(
         <>
+        <Layout>
             <Navbar />
-            <Header />
+            <Hero />
+        </Layout>
         </>
     )
 }
